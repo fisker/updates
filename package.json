@@ -34,7 +34,7 @@
     "minimist": "1.2.0",
     "rc": "1.2.8",
     "registry-auth-token": "4.0.0",
-    "semver": "7.0.0",
+    "semver": "7.1.1",
     "string-width": "4.2.0",
     "text-table": "0.2.0"
   },
