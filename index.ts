@@ -147,7 +147,7 @@ const args = minimist(argv.slice(2), {
 });
 
 const [magenta, red, green] = (["magenta", "red", "green"] as const)
-  .map(color => args["no-color"] ? String : (text: string) => styleText(color, text));
+  .map(color => args["no-color"] ? String : (text: string | number) => styleText(color, String(text)));
 
 type PackageArg = Set<RegExp> | boolean;
 
